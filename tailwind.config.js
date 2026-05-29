@@ -1,0 +1,14 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                heading: ['Syne', 'sans-serif'],
+                style: ['Birthstone', 'sans-serif'],
+            },
+        },
+    },
+    plugins: [require('tailwind-scrollbar-hide')],
+};

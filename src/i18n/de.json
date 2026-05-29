@@ -1,0 +1,297 @@
+{
+    "hero": {
+        "title": "Seidig glattes, gesundes Haar — ganz ohne Aufwand",
+        "subtitle": "Professionelle Keratin-, Nanoplastik- und Aufbaubehandlungen, individuell auf deinen Haartyp abgestimmt. Entwickelt, um das Haar zu glätten, zu reparieren und den natürlichen Glanz zu verstärken, ohne die Haarstruktur zu beeinträchtigen.",
+        "servicesButton": "Leistungen",
+        "bookButton": "Jetzt Termin buchen"
+    },
+    "nav": {
+        "home": "Startseite",
+        "services": "Leistungen",
+        "about": "Über mich",
+        "contact": "Kontakt"
+    },
+    "info": [
+        {
+            "title": "KONTAKTEN",
+            "items": [
+                "Telegram: +(41) 79 480 0718 ",
+                "Whats app: +(41) 79 480 0718 "
+            ]
+        },
+        {
+            "title": "ÖFFNUNGSZEITEN",
+            "items": [
+                "Mon — Fr: 8:00 am — 5:00 pm",
+                "Sa: 8:00 am — 5:00 pm"
+            ]
+        },
+        {
+            "title": "STANDORT",
+            "items": [
+                "Hardturmstrasse 22, Zurich, Switzerland 8005"
+            ]
+        }
+    ],
+    "wellcome": {
+        "title": "Willkommen bei",
+        "text": "Wir sind spezialisiert auf moderne Haarpflegebehandlungen, die die Haarstruktur wiederherstellen, Frizz reduzieren und den natürlichen Glanz zurückbringen. Jede Behandlung wird sorgfältig auf deinen Haartyp, den Zustand und das gewünschte Ergebnis abgestimmt. Unser Ziel ist nicht nur ein kurzfristiger Effekt, sondern langfristig gesundes, gepflegtes und leicht zu handhabendes Haar, das jeden Tag schön aussieht und sich gut anfühlt. Wir verwenden ausschließlich hochwertige professionelle Produkte und bewährte Techniken, die sicher und effektiv sind.",
+        "subtext": "--Unser Ansatz basiert auf Präzision und Sorgfalt. Jede Kundin erhält individuelle Empfehlungen für Salonbehandlungen sowie die richtige Pflege zu Hause. So bleiben die Ergebnisse länger erhalten und dein Haar bleibt zwischen den Besuchen stark, glatt und glänzend--"
+    },
+    "services": {
+        "title": "Leistungen & Preise",
+        "items": [
+            {
+                "id": "nanoplasty",
+                "title": "Nanoplastie",
+                "options": [
+                    {
+                        "length": "Ansatz",
+                        "price": "250 CHF"
+                    },
+                    {
+                        "length": "Sehr kurzes Haar",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Kurzes Haar",
+                        "price": "350 CHF"
+                    },
+                    {
+                        "length": "Mittellanges Haar",
+                        "price": "400 CHF"
+                    },
+                    {
+                        "length": "Langes Haar",
+                        "price": "450 CHF"
+                    },
+                    {
+                        "length": "Sehr langes Haar",
+                        "price": "500 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "keratin",
+                "title": "Keratin | Botox",
+                "options": [
+                    {
+                        "length": "Sehr kurzes Haar",
+                        "price": "250 CHF"
+                    },
+                    {
+                        "length": "Kurzes Haar",
+                        "price": "270 CHF"
+                    },
+                    {
+                        "length": "Mittellanges Haar",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Langes Haar",
+                        "price": "330 CHF"
+                    },
+                    {
+                        "length": "Sehr langes Haar",
+                        "price": "360 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "reconstruction",
+                "title": "Kalte Haarrekonstruktion",
+                "options": [
+                    {
+                        "length": "1 Schritt (30–40 cm)",
+                        "price": "30–40 CHF"
+                    },
+                    {
+                        "length": "1+2 Schritte",
+                        "price": "60–70 CHF"
+                    },
+                    {
+                        "length": "1+2+3 Schritte",
+                        "price": "90–100 CHF"
+                    },
+                    {
+                        "length": "Dickes Haar",
+                        "price": "+30 CHF"
+                    },
+                    {
+                        "length": "Sehr dickes Haar",
+                        "price": "+50 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "nanoKeratinCombo",
+                "title": "Nanoplastie Ansatz + Keratin | Botox Längen",
+                "options": [
+                    {
+                        "length": "Sehr kurzes Haar",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Kurzes Haar",
+                        "price": "330 CHF"
+                    },
+                    {
+                        "length": "Mittellanges Haar",
+                        "price": "360 CHF"
+                    },
+                    {
+                        "length": "Langes Haar",
+                        "price": "390 CHF"
+                    },
+                    {
+                        "length": "Sehr langes Haar",
+                        "price": "420 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "nanoReconstructionCombo",
+                "title": "Nanoplastie Ansatz + Kalte Rekonstruktion Längen",
+                "options": [
+                    {
+                        "length": "Sehr kurzes Haar",
+                        "price": "290 CHF"
+                    },
+                    {
+                        "length": "Kurzes Haar",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Mittellanges Haar",
+                        "price": "320 CHF"
+                    },
+                    {
+                        "length": "Langes Haar",
+                        "price": "350 CHF"
+                    },
+                    {
+                        "length": "Sehr langes Haar",
+                        "price": "370 CHF"
+                    }
+                ]
+            }
+        ],
+        "info": [
+            "Die angegebenen Preise können je nach Haaraufwand variieren (+30–50 CHF).",
+            "Für AFRO-HAARSTRUKTUR werden Termine nur nach vorheriger Beratung vergeben."
+        ]
+    },
+    "treatments": {
+        "title": "Haarpflege nach der Behandlung",
+        "subtitle": "Die richtige Nachpflege ist entscheidend, um das Ergebnis deiner Behandlung langfristig zu erhalten. Befolge diese einfachen, aber wichtigen Schritte, um dein Haar glatt, glänzend und gesund zu halten.",
+        "items": [
+            {
+                "title": "Haarwäsche",
+                "text": "Wähle ein Shampoo passend zu deinem Kopfhauttyp, idealerweise aus professionellen Produktlinien. Trage das Shampoo nur am Ansatz auf und massiere die Kopfhaut sanft, ohne die Haarlängen zu stark zu reiben. Der Schaum reinigt die Längen beim Ausspülen automatisch."
+            },
+            {
+                "title": "Conditioner",
+                "text": "Nach der Haarwäsche das überschüssige Wasser sanft ausdrücken und den Conditioner auf die Längen und Spitzen auftragen. Den Haaransatz aussparen. Gleichmäßig verteilen, einige Minuten einwirken lassen und anschließend gründlich ausspülen."
+            },
+            {
+                "title": "Nach dem Waschen",
+                "text": "Die Haare nicht zu lange im Handtuch lassen. Nicht rubbeln — stattdessen sanft ausdrücken, um die Haarstruktur zu schonen und Schäden zu vermeiden."
+            },
+            {
+                "title": "Föhnen",
+                "text": "Die Haare immer föhnen. Vor dem Trocknen Hitzeschutz auftragen. Den Luftstrom von den Wurzeln zu den Spitzen richten, um Glanz und Geschmeidigkeit zu fördern. Bei dickem Haar in Sektionen arbeiten."
+            },
+            {
+                "title": "Wichtig",
+                "text": "Die Haltbarkeit des Ergebnisses hängt direkt von deiner Pflege zu Hause ab. Konsequente und richtige Pflege sorgt für langfristig glattes, glänzendes und gepflegtes Haar. Bei Unsicherheiten bezüglich der Produkte kannst du jederzeit nachfragen."
+            }
+        ]
+    },
+    "statistics": {
+        "items": [
+            {
+                "id": "clients",
+                "value": "50+",
+                "label": "Zufriedene Kunden"
+            },
+            {
+                "id": "treatments",
+                "value": "120+",
+                "label": "Durchgeführte Behandlungen"
+            },
+            {
+                "id": "experience",
+                "value": "3+",
+                "label": "Jahre Erfahrung"
+            }
+        ]
+    },
+    "about": {
+        "title": "Über mich",
+        "subtitle": "Professionelle Haarpflege mit Fokus auf Präzision, Qualität und individuelle Betreuung.",
+        "textTitle": "Gesundes und glattes Haar beginnt hier",
+        "text": "Ich spezialisiere mich auf moderne Methoden der Haarrekonstruktion und Glättung mit dem Ziel, natürliche und gesunde Ergebnisse zu erzielen. Jede Kundin ist individuell, deshalb analysiere ich sorgfältig Haarstruktur, Zustand und Wünsche, bevor ich die passende Behandlung auswähle. Meine Arbeit basiert auf hohen Qualitätsstandards, kontinuierlicher Weiterbildung und der Verwendung professioneller Produkte, die sichtbare und langanhaltende Ergebnisse liefern. Ich bin überzeugt, dass schönes Haar mit richtiger Pflege beginnt, und mein Ziel ist es, dir zu mehr Selbstbewusstsein im Alltag zu verhelfen.",
+        "subtext": "— Individuelle Betreuung. Sichtbare Ergebnisse. Gesundes Haar —",
+        "button": "Folge mir auf Instagram"
+    },
+    "portfolio": {
+        "title": "Meine Arbeiten",
+        "subtitle": "Echte Ergebnisse von echten Kundinnen. Jede Veränderung zeigt einen individuellen Ansatz und Liebe zum Detail."
+    },
+    "parallax": {
+        "title": "Seidig glattes Haar. Präzise Pflege.",
+        "subtitle": "Premium Haarbehandlungen aus der Schweiz, individuell für dich",
+        "button": "Jetzt buchen"
+    },
+    "feedbacks": {
+        "title": "Kundenbewertungen",
+        "subtitle": "Das sagen meine Kundinnen nach der Behandlung",
+        "items": [
+            {
+                "name": "Sofia Müller",
+                "text": "Ich liebe meine Haare nach der Behandlung! Sie sind unglaublich glatt und glänzend geworden. Das Ergebnis hat meine Erwartungen übertroffen."
+            },
+            {
+                "name": "Anna Petrova",
+                "text": "Sehr professioneller Service und tolle Aufmerksamkeit für Details. Meine Haare lassen sich jetzt viel einfacher stylen."
+            },
+            {
+                "name": "Laura Schmidt",
+                "text": "Die Atmosphäre war super und das Ergebnis noch besser. Meine Haare fühlen sich zum ersten Mal seit Jahren gesund an."
+            },
+            {
+                "name": "Elena Ivanova",
+                "text": "Ich hatte Angst vor Schäden, aber alles wurde perfekt gemacht. Das Ergebnis ist natürlich und langanhaltend."
+            },
+            {
+                "name": "Maria Rossi",
+                "text": "Sehr empfehlenswert! Die Behandlung hat meine geschädigten Haare komplett verwandelt."
+            },
+            {
+                "name": "Olga Kuznetsova",
+                "text": "Man merkt sofort die Qualität der Produkte und die Erfahrung. Ich komme definitiv wieder."
+            }
+        ]
+    },
+    "questions": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+            {
+                "question": "Wie lange hält das Ergebnis?",
+                "answer": "Je nach Haartyp und Pflege zu Hause hält das Ergebnis zwischen 2 und 6 Monaten. Die richtige Pflege verlängert die Wirkung deutlich."
+            },
+            {
+                "question": "Kann ich meine Haare direkt nach der Behandlung waschen?",
+                "answer": "Ja, moderne Formulierungen erlauben das Waschen am selben Tag. Bitte beachte jedoch immer die individuellen Empfehlungen nach der Behandlung."
+            }
+        ]
+    },
+    "footer": {
+        "title": "Bleib in Kontakt",
+        "description": "Folge uns für aktuelle Angebote, neue Behandlungen und Pflegetipps.",
+        "copyright": "Keratin Switzerland. Alle Rechte vorbehalten.",
+        "credits": [
+            "Icons von Icons8"
+        ]
+    }
+}

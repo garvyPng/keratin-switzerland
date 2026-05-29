@@ -1,0 +1,297 @@
+{
+    "hero": {
+        "title": "Silky, Smooth, Healthy Hair — Effortlessly",
+        "subtitle": "Professional keratin, nanoplasty, and restorative treatments tailored to your hair type. Designed to smooth, repair, and enhance natural shine while preserving the strength and health of your hair.",
+        "servicesButton": "Services",
+        "bookButton": "Book Appointment Now"
+    },
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About Me",
+        "contact": "Contact"
+    },
+    "info": [
+        {
+            "title": "CONTACTS",
+            "items": [
+                "Telegram: +(41) 79 480 0718 ",
+                "Whats app: +(41) 79 480 0718 "
+            ]
+        },
+        {
+            "title": "HOURS",
+            "items": [
+                "Mon to Fri: 8:00 am — 5:00 pm",
+                "Sat: 8:00 am — 5:00 pm"
+            ]
+        },
+        {
+            "title": "LOCATION",
+            "items": [
+                "Hardturmstrasse 22, Zurich, Switzerland 8005"
+            ]
+        }
+    ],
+    "services": {
+        "title": "Services & Prices",
+        "items": [
+            {
+                "id": "nanoplasty",
+                "title": "Nanoplasty",
+                "options": [
+                    {
+                        "length": "Roots",
+                        "price": "250 CHF"
+                    },
+                    {
+                        "length": "Very short hair",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Short hair",
+                        "price": "350 CHF"
+                    },
+                    {
+                        "length": "Medium hair",
+                        "price": "400 CHF"
+                    },
+                    {
+                        "length": "Long hair",
+                        "price": "450 CHF"
+                    },
+                    {
+                        "length": "Very long hair",
+                        "price": "500 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "keratin",
+                "title": "Keratin | Botox",
+                "options": [
+                    {
+                        "length": "Very short hair",
+                        "price": "250 CHF"
+                    },
+                    {
+                        "length": "Short hair",
+                        "price": "270 CHF"
+                    },
+                    {
+                        "length": "Medium hair",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Long hair",
+                        "price": "330 CHF"
+                    },
+                    {
+                        "length": "Very long hair",
+                        "price": "360 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "reconstruction",
+                "title": "Cold hair reconstruction",
+                "options": [
+                    {
+                        "length": "1 Step (30-40cm)",
+                        "price": "30-40 CHF"
+                    },
+                    {
+                        "length": "1+2 Steps",
+                        "price": "60-70 CHF"
+                    },
+                    {
+                        "length": "1+2+3 Steps",
+                        "price": "90-100 CHF"
+                    },
+                    {
+                        "length": "Thick hair",
+                        "price": "+30 CHF"
+                    },
+                    {
+                        "length": "Very thick hair",
+                        "price": "+50 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "nanoKeratinCombo",
+                "title": "Nanoslasty Roots + Keratin | Botox lengths",
+                "options": [
+                    {
+                        "length": "Very short hair",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Short hair",
+                        "price": "330 CHF"
+                    },
+                    {
+                        "length": "Medium hair",
+                        "price": "360 CHF"
+                    },
+                    {
+                        "length": "Long hair",
+                        "price": "390 CHF"
+                    },
+                    {
+                        "length": "Very long hair",
+                        "price": "420 CHF"
+                    }
+                ]
+            },
+            {
+                "id": "nanoReconstructionCombo",
+                "title": "Nanoslasty Roots + Cold Reconstruction Length",
+                "options": [
+                    {
+                        "length": "Very short hair",
+                        "price": "290 CHF"
+                    },
+                    {
+                        "length": "Short hair",
+                        "price": "300 CHF"
+                    },
+                    {
+                        "length": "Medium hair",
+                        "price": "320 CHF"
+                    },
+                    {
+                        "length": "Long hair",
+                        "price": "350 CHF"
+                    },
+                    {
+                        "length": "Very long hair",
+                        "price": "370 CHF"
+                    }
+                ]
+            }
+        ],
+        "info": [
+            "The prices listed may vary (+30-50 CHF) if the hair requires more time and product.",
+            "For AFRO HAIR STRUCTURE, appointments are ONLY made after a prior consultation."
+        ]
+    },
+    "wellcome": {
+        "title": "Wellcome to",
+        "text": "We specialize in advanced hair care treatments that restore structure, eliminate frizz, and bring back natural shine. Every procedure is carefully selected based on your hair type, condition, and desired result. Our goal is not just a temporary effect, but long-lasting, healthy, and manageable hair that looks and feels beautiful every day. We use only high-quality professional products and techniques that are safe, effective, and proven.",
+        "subtext": "--Our approach is based on precision and care. Each client receives personalized recommendations for both salon treatments and home care. This ensures that your results last longer and your hair remains strong, smooth, and radiant between visits--"
+    },
+    "treatments": {
+        "title": "Hair care after treatment",
+        "subtitle": "Proper aftercare is essential to maintain the results of your treatment. Follow these simple but important steps to keep your hair smooth, shiny, and healthy for as long as possible.",
+        "items": [
+            {
+                "title": "Hair Washing",
+                "text": "Choose a shampoo that suits your scalp type, preferably from professional lines. Apply shampoo only to the roots and gently massage the scalp without aggressively rubbing the hair length. Let the foam cleanse the rest of the hair naturally."
+            },
+            {
+                "title": "Conditioner",
+                "text": "After washing, gently squeeze out excess water and apply conditioner to the mid-lengths and ends. Avoid the roots. Distribute evenly with your fingers or a comb, leave for a few minutes, then rinse thoroughly."
+            },
+            {
+                "title": "After Washing",
+                "text": "Do not keep your hair wrapped in a towel for too long. Avoid rubbing — instead, gently press the towel to absorb moisture and reduce damage to the hair structure."
+            },
+            {
+                "title": "Blow-drying",
+                "text": "Always dry your hair using a hairdryer. Apply heat protection before drying. Direct airflow from roots to ends to enhance smoothness and shine. For thick hair, divide it into sections for better control."
+            },
+            {
+                "title": "Important",
+                "text": "The longevity of your results depends directly on your home care routine. Consistent and правильный уход keeps your hair smooth, glossy, and well-maintained for months. If you are unsure about products — feel free to ask for advice."
+            }
+        ]
+    },
+    "statistics": {
+        "items": [
+            {
+                "id": "clients",
+                "value": "50+",
+                "label": "Happy clients"
+            },
+            {
+                "id": "treatments",
+                "value": "120+",
+                "label": "Treatments done"
+            },
+            {
+                "id": "experience",
+                "value": "3+",
+                "label": "Years experience"
+            }
+        ]
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "A professional approach to hair care built on experience, precision, and attention to detail.",
+        "textTitle": "Healthy & smooth hair starts here",
+        "text": "I specialize in modern hair restoration and smoothing techniques, focusing on achieving natural, healthy results rather than temporary effects. Every client is unique, which is why I carefully assess hair condition, structure, and goals before selecting the right treatment. My work is based on high standards, continuous learning, and the use of professional products that deliver visible and lasting results. I believe that beautiful hair starts with proper care, and my mission is to help you achieve confidence in your look every day.",
+        "subtext": "— Individual approach. Visible results. Healthy hair —",
+        "button": "Follow my Instagram"
+    },
+    "portfolio": {
+        "title": "My Work",
+        "subtitle": "Real results from real clients. Each transformation reflects a personalized approach and attention to detail."
+    },
+    "parallax": {
+        "title": "Silky Hair. Precision Care.",
+        "subtitle": "Swiss premium hair treatments tailored for you",
+        "button": "Book now"
+    },
+    "feedbacks": {
+        "title": "Client Reviews",
+        "subtitle": "What my clients say after their treatments",
+        "items": [
+            {
+                "name": "Sofia Müller",
+                "text": "I absolutely love my hair after the treatment. It feels incredibly smooth and looks so shiny. The result exceeded my expectations."
+            },
+            {
+                "name": "Anna Petrova",
+                "text": "Very professional service and amazing attention to detail. My hair has never been this easy to manage."
+            },
+            {
+                "name": "Laura Schmidt",
+                "text": "The atmosphere was great and the result is even better. My hair looks healthy and feels soft for the first time in years."
+            },
+            {
+                "name": "Elena Ivanova",
+                "text": "I was worried about damaging my hair, but everything was done perfectly. The result is natural and long-lasting."
+            },
+            {
+                "name": "Maria Rossi",
+                "text": "Highly recommend! The treatment saved my damaged hair and gave it a completely new look."
+            },
+            {
+                "name": "Olga Kuznetsova",
+                "text": "You can really feel the quality of the products and the expertise. I will definitely come back again."
+            }
+        ]
+    },
+    "questions": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "How long does the effect last?",
+                "answer": "Depending on your hair type and home care routine, the results can last from 2 to 6 months. Proper maintenance significantly extends the effect."
+            },
+            {
+                "question": "Can I wash my hair after the treatment?",
+                "answer": "Yes, modern formulas allow you to wash your hair the same day. However, always follow the specific рекомендациям given after your appointment."
+            }
+        ]
+    },
+    "footer": {
+        "title": "Stay Connected",
+        "description": "Follow us to stay updated on promotions, new treatments, and hair care tips.",
+        "copyright": "Keratin Switzerland. All rights reserved.",
+        "credits": [
+            "Icons by Icons8"
+        ]
+    }
+}
