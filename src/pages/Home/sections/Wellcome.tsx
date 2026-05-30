@@ -22,7 +22,7 @@ export default function Wellcome() {
                                 className='aspect-square rounded-[10px] overflow-hidden'
                             >
                                 <img
-                                    src={`/images/w${_}.webp`}
+                                    src={`/images/w${_}.png`}
                                     className='w-full h-full object-cover'
                                     alt=''
                                 />
