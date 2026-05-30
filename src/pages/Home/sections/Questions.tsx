@@ -79,7 +79,7 @@ export default function Questions() {
                     <div className='relative col-span-2 md:col-span-2 rounded-xl overflow-hidden h-40 md:h-auto group'>
                         <img
                             loading='lazy'
-                            src='/images/q1.webp'
+                            src='/images/q1.png'
                             className='w-full h-full object-cover transition duration-500 group-hover:scale-110'
                             alt=''
                         />
@@ -89,7 +89,7 @@ export default function Questions() {
                     <div className='relative col-span-1 rounded-xl overflow-hidden h-40 md:h-auto group'>
                         <img
                             loading='lazy'
-                            src='/images/q2.webp'
+                            src='/images/q2.png'
                             className='w-full h-full object-cover transition duration-500 group-hover:scale-110'
                             alt=''
                         />
@@ -99,7 +99,7 @@ export default function Questions() {
                     <div className='relative col-span-1 rounded-xl overflow-hidden h-40 md:h-auto group'>
                         <img
                             loading='lazy'
-                            src='/images/q3.webp'
+                            src='/images/q3.png'
                             className='w-full h-full object-cover transition duration-500 group-hover:scale-110'
                             alt=''
                         />
@@ -109,7 +109,7 @@ export default function Questions() {
                     <div className='relative col-span-2 md:col-span-2 rounded-xl overflow-hidden h-40 md:h-auto group'>
                         <img
                             loading='lazy'
-                            src='/images/q4.webp'
+                            src='/images/q4.png'
                             className='w-full h-full object-cover transition duration-500 group-hover:scale-110'
                             alt=''
                         />
