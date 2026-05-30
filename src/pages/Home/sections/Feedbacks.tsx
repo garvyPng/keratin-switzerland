@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Carousel from '../../../shared/components/Carousel';
+import { useMemo } from 'react';
 
 type Feedback = {
     name: string;
@@ -7,10 +8,16 @@ type Feedback = {
 };
 
 export default function Feedbacks() {
-    const { t } = useTranslation();
-    const feedbacks = t('feedbacks.items', {
-        returnObjects: true,
-    }) as Feedback[];
+    const { t, i18n } = useTranslation();
+    const feedbacks = useMemo<Feedback[]>(
+        () => {
+            return t('feedbacks.items', {
+                returnObjects: true,
+            }) as Feedback[];
+        },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [i18n.language],
+    );
 
     return (
         <section className='bg-[var(--color-gray)] py-10 md:py-20'>

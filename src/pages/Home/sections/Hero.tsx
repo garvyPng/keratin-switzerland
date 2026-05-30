@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 type InfoItem = {
@@ -11,7 +11,8 @@ export default function Hero() {
     const info = t('info', { returnObjects: true }) as InfoItem[];
 
     const trackRef = useRef<HTMLDivElement>(null);
-    const [isPaused, setIsPaused] = useState(false);
+    // const [isPaused, setIsPaused] = useState(false);
+    const isPaused = useRef(false);
 
     const images = [
         '/images/h1.jpg',
@@ -29,28 +30,50 @@ export default function Hero() {
         const el = trackRef.current;
         if (!el) return;
 
-        let animationFrame: number;
-
+        let frame: number;
         const speed = 0.6;
 
         const animate = () => {
-            if (!isPaused && window.innerWidth < 768) {
+            if (!isPaused.current && window.innerWidth < 768) {
                 el.scrollLeft += speed;
 
                 const half = el.scrollWidth / 2;
 
                 if (el.scrollLeft >= half) {
-                    el.scrollLeft = el.scrollLeft - half;
+                    el.scrollLeft -= half;
                 }
             }
 
-            animationFrame = requestAnimationFrame(animate);
+            frame = requestAnimationFrame(animate);
         };
 
-        animationFrame = requestAnimationFrame(animate);
+        frame = requestAnimationFrame(animate);
+        return () => cancelAnimationFrame(frame);
+    }, []);
+    useEffect(() => {
+        const el = trackRef.current;
+        if (!el) return;
 
-        return () => cancelAnimationFrame(animationFrame);
-    }, [isPaused]);
+        let frame: number;
+        const speed = 0.6;
+
+        const animate = () => {
+            if (!isPaused.current && window.innerWidth < 768) {
+                el.scrollLeft += speed;
+
+                const half = el.scrollWidth / 2;
+
+                if (el.scrollLeft >= half) {
+                    el.scrollLeft -= half;
+                }
+            }
+
+            frame = requestAnimationFrame(animate);
+        };
+
+        frame = requestAnimationFrame(animate);
+        return () => cancelAnimationFrame(frame);
+    }, []);
 
     return (
         <section
@@ -106,13 +129,11 @@ export default function Hero() {
                     </div>
                     <div
                         ref={trackRef}
-                        className=' flex gap-4 overflow-x-scroll scrollbar-hide md:hidden
-          cursor-grab active:cursor-grabbing
-        '
-                        onMouseEnter={() => setIsPaused(true)}
-                        onMouseLeave={() => setIsPaused(false)}
-                        onTouchStart={() => setIsPaused(true)}
-                        onTouchEnd={() => setIsPaused(false)}
+                        className='flex gap-4 overflow-x-scroll scrollbar-hide md:hidden cursor-grab active:cursor-grabbing will-change-transform'
+                        onMouseEnter={() => (isPaused.current = true)}
+                        onMouseLeave={() => (isPaused.current = false)}
+                        onTouchStart={() => (isPaused.current = true)}
+                        onTouchEnd={() => (isPaused.current = false)}
                     >
                         {[...images, ...images].map((img, i) => (
                             <div

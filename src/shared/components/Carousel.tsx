@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 type Feedback = {
     name: string;
@@ -7,7 +7,7 @@ type Feedback = {
 
 export default function Carousel({ items }: { items: Feedback[] }) {
     const trackRef = useRef<HTMLDivElement>(null);
-    const [isPaused, setIsPaused] = useState(false);
+    const isPaused = useRef(false);
 
     useEffect(() => {
         const track = trackRef.current;
@@ -16,8 +16,8 @@ export default function Carousel({ items }: { items: Feedback[] }) {
         let frame: number;
 
         const step = () => {
-            if (!isPaused && track) {
-                track.scrollLeft += 0.8;
+            if (!isPaused.current) {
+                track.scrollLeft += 0.5;
 
                 if (track.scrollLeft >= track.scrollWidth - track.clientWidth) {
                     track.scrollLeft = 0;
@@ -28,9 +28,8 @@ export default function Carousel({ items }: { items: Feedback[] }) {
         };
 
         frame = requestAnimationFrame(step);
-
         return () => cancelAnimationFrame(frame);
-    }, [isPaused]);
+    }, []);
 
     const isDown = useRef(false);
     const startX = useRef(0);
@@ -38,7 +37,7 @@ export default function Carousel({ items }: { items: Feedback[] }) {
 
     const startDrag = (e: React.MouseEvent | React.TouchEvent) => {
         isDown.current = true;
-        setIsPaused(true);
+        isPaused.current = true;
 
         const x = 'touches' in e ? e.touches[0].pageX : e.pageX;
 
@@ -51,21 +50,21 @@ export default function Carousel({ items }: { items: Feedback[] }) {
 
         const x = 'touches' in e ? e.touches[0].pageX : e.pageX;
 
-        const walk = (x - startX.current) * 1.2;
+        const walk = x - startX.current;
 
         trackRef.current.scrollLeft = scrollLeft.current - walk;
     };
 
     const endDrag = () => {
         isDown.current = false;
-        setIsPaused(false);
+        isPaused.current = false;
     };
 
     return (
         <div
             className='overflow-hidden relative'
-            onMouseEnter={() => setIsPaused(true)}
-            onMouseLeave={() => setIsPaused(false)}
+            onMouseEnter={() => (isPaused.current = true)}
+            onMouseLeave={() => (isPaused.current = false)}
         >
             <div
                 ref={trackRef}
@@ -81,7 +80,7 @@ export default function Carousel({ items }: { items: Feedback[] }) {
                 {[...items, ...items].map((item, i) => (
                     <div
                         key={i}
-                        className='bg-white text-black min-w-[320px] max-w-[320px] rounded-2xl p-6 shadow-md flex-shrink-0 transition hover:scale-[1.03]'
+                        className='bg-white text-black mb-5 min-w-[320px] max-w-[320px] rounded-2xl p-6 shadow-md flex-shrink-0 transition hover:scale-[1.03]'
                     >
                         {/* stars */}
                         <div className='flex gap-1 mb-3'>

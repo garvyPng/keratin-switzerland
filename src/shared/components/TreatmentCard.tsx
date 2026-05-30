@@ -1,3 +1,4 @@
+import React from 'react';
 import { useReveal } from '../hooks/useReveal';
 
 type Treatment = {
@@ -5,7 +6,7 @@ type Treatment = {
     text: string;
 };
 
-export function TreatmentCard({
+export const TreatmentCard = React.memo(function TreatmentCard({
     item,
     isLast,
     index,
@@ -16,13 +17,15 @@ export function TreatmentCard({
 }) {
     const { ref, isVisible } = useReveal();
 
-    const direction = index % 2 === 0 ? '-translate-x-10' : 'translate-x-10';
+    const direction = index % 2 === 0 ? '-translate-x-6' : 'translate-x-6';
 
     return (
         <div
             ref={ref}
+            style={{ transitionDelay: `${index * 100}ms` }}
             className={`
                 p-6 rounded-xl shadow-md
+                transform-gpu will-change-transform
                 transition-all duration-700 ease-out
                 hover:scale-[1.03]
 
@@ -39,4 +42,4 @@ export function TreatmentCard({
             <p className='text-sm mt-2 text-gray-600'>{item.text}</p>
         </div>
     );
-}
+});

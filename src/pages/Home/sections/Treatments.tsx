@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { TreatmentCard } from '../../../shared/components/TreatmentCard';
+import { useMemo } from 'react';
 
 type Treatment = {
     title: string;
@@ -7,11 +8,18 @@ type Treatment = {
 };
 
 export default function Treatments() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
-    const treatments = t('treatments.items', {
-        returnObjects: true,
-    }) as Treatment[];
+    const treatments = useMemo<Treatment[]>(
+        () => {
+            return t('treatments.items', {
+                returnObjects: true,
+            }) as Treatment[];
+        },
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [i18n.language],
+    );
 
     return (
         <section className='pt-10 md:pt-20 overflow-hidden'>
@@ -25,7 +33,7 @@ export default function Treatments() {
                     </p>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6 mb-10 md:mb-20'>
                     {treatments.map((item, i) => (
                         <TreatmentCard
                             key={i}
