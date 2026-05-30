@@ -31,23 +31,21 @@ export default function Portfolio() {
                 <div className='grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5'>
                     {gallery.map((item, index) => {
                         const isFeatured = index % 7 === 0;
-                        const isLast = gallery.length - 1;
 
                         return (
                             <div
-                                key={`${item.id}-${index}`}
                                 className={`
-        relative overflow-hidden rounded-lg aspect-square group
+        relative overflow-hidden rounded-lg aspect-square group transform-gpu
         ${isFeatured ? 'col-span-2 row-span-2' : ''} 
-        ${index === isLast ? 'hidden md:block' : ''}
+        ${index === gallery.length - 1 ? 'hidden md:block' : ''}
     `}
                             >
                                 <img
-                                    className='w-full h-full object-cover transition duration-500 group-hover:scale-[1.03]'
+                                    className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03] will-change-transform'
                                     src={item.src}
                                     alt={item.alt}
-                                    style={{ imageRendering: 'auto' }}
                                     loading='lazy'
+                                    decoding='async'
                                 />
 
                                 <div className='absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/10' />

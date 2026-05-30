@@ -12,7 +12,7 @@ export default function Statistics() {
         returnObjects: true,
     }) as Statistic[];
     return (
-        <section className='mt-10 md:mt-20 bg-[var(--color-black)]'>
+        <section className=' bg-[var(--color-black)]'>
             <div className='mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8'>
                 <div className='flex flex-col md:flex-row'>
                     {statistics.map((item: Statistic, i: number) => {

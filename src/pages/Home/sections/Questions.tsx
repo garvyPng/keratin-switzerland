@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 type Question = {
@@ -7,12 +7,18 @@ type Question = {
 };
 
 export default function Questions() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [openId, setOpenId] = useState<number | null>(null);
 
-    const questions = t('questions.items', {
-        returnObjects: true,
-    }) as Question[];
+    const questions = useMemo<Question[]>(
+        () => {
+            return t('questions.items', {
+                returnObjects: true,
+            }) as Question[];
+        },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [i18n.language],
+    );
 
     const toggle = (id: number) => {
         setOpenId(openId === id ? null : id);

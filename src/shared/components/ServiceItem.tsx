@@ -1,3 +1,4 @@
+import React from 'react';
 import { useReveal } from '../hooks/useReveal';
 type ServiceOption = {
     length: string;
@@ -10,7 +11,7 @@ type Service = {
     options: ServiceOption[];
 };
 
-export function ServiceItem({
+export const ServiceItem = React.memo(function ServiceItem({
     service,
     isOpen,
     onToggle,
@@ -26,11 +27,11 @@ export function ServiceItem({
             ref={ref}
             className={`
                 border border-gray-200 rounded-[10px] overflow-hidden
-                transition-all duration-700 ease-out
+                transition-[opacity,transform] duration-500 ease-out
                 ${
                     isVisible
                         ? 'opacity-100 translate-y-0'
-                        : 'opacity-0 translate-y-6'
+                        : 'opacity-0 translate-y-2'
                 }
             `}
         >
@@ -61,9 +62,9 @@ export function ServiceItem({
             >
                 <div className='overflow-hidden px-4 md:px-6'>
                     <div className='space-y-2'>
-                        {service.options.map((opt, i) => (
+                        {service.options.map((opt) => (
                             <div
-                                key={i}
+                                key={opt.length}
                                 className='flex justify-between text-sm md:text-base border-b border-gray-100 py-2 gap-4'
                             >
                                 <span>{opt.length}</span>
@@ -77,4 +78,4 @@ export function ServiceItem({
             </div>
         </div>
     );
-}
+});

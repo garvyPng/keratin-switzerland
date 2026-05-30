@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import i18n from '../../../i18n/config';
+import { useMemo } from 'react';
 
 type InfoItem = {
     title: string;
@@ -8,7 +9,13 @@ type InfoItem = {
 
 export default function Info() {
     const { t } = useTranslation();
-    const info = t('info', { returnObjects: true }) as InfoItem[];
+    const info = useMemo<InfoItem[]>(
+        () => {
+            return t('info', { returnObjects: true }) as InfoItem[];
+        },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [i18n.language],
+    );
 
     return (
         <section id='contact' className='pt-10 md:pt-20 '>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ServiceItem } from '../../../shared/components/ServiceItem';
 
@@ -14,20 +14,26 @@ type Service = {
 };
 
 export default function Services() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [openId, setOpenId] = useState<string | null>('nanoplasty');
 
-    const services = t('services.items', {
-        returnObjects: true,
-    }) as Service[];
+    const services = useMemo<Service[]>(() => {
+        return t('services.items', {
+            returnObjects: true,
+        }) as Service[];
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [i18n.language]);
 
-    const info = t('services.info', {
-        returnObjects: true,
-    }) as string[];
+    const info = useMemo<string[]>(() => {
+        return t('services.info', {
+            returnObjects: true,
+        }) as string[];
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [i18n.language]);
 
-    const toggle = (id: string) => {
-        setOpenId(openId === id ? null : id);
-    };
+    const toggle = useCallback((id: string) => {
+        setOpenId((prev) => (prev === id ? null : id));
+    }, []);
 
     return (
         <section id='services' className='pt-10 md:pt-20'>
