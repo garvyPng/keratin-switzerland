@@ -110,8 +110,7 @@ export default function Footer() {
 
             <div className='bg-[var(--color-black)] text-center p-4'>
                 <p className='text-sm text-white'>
-                    © {new Date().getFullYear()} {t('footer.copyright')}{' '}
-                    reserved.
+                    © {new Date().getFullYear()} {t('footer.copyright')}
                 </p>
             </div>
         </footer>
