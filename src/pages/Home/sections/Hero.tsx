@@ -80,10 +80,16 @@ export default function Hero() {
             id='home'
             className='relative md:h-screen flex items-center justify-center overflow-hidden pt-32 pb-10 md:p-0'
         >
-            <div
-                className='absolute inset-0 bg-cover bg-center'
-                style={{ backgroundImage: 'url(/images/hero.webp)' }}
-            />
+            <div className='absolute inset-0 overflow-hidden'>
+                <img
+                    src='/images/hero.webp'
+                    alt=''
+                    className='w-full h-full object-cover'
+                    fetchPriority='high'
+                    decoding='async'
+                />
+            </div>
+
             <div
                 className='absolute inset-0'
                 style={{
@@ -173,6 +179,8 @@ export default function Hero() {
                         <img
                             src='/images/portfolio/1.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
+                            fetchPriority='high'
+                            decoding='async'
                         />
                     </div>
 
@@ -180,6 +188,8 @@ export default function Hero() {
                         <img
                             src='/images/portfolio/6.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
+                            fetchPriority='high'
+                            decoding='async'
                         />
                     </div>
 
@@ -187,6 +197,8 @@ export default function Hero() {
                         <img
                             src='/images/portfolio/3.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
+                            fetchPriority='high'
+                            decoding='async'
                         />
                     </div>
 
@@ -194,6 +206,8 @@ export default function Hero() {
                         <img
                             src='/images/portfolio/4.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
+                            fetchPriority='high'
+                            decoding='async'
                         />
                     </div>
 
@@ -201,6 +215,8 @@ export default function Hero() {
                         <img
                             src='/images/portfolio/5.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
+                            fetchPriority='high'
+                            decoding='async'
                         />
                     </div>
                 </div>
