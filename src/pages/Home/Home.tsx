@@ -8,7 +8,7 @@ import Questions from './sections/Questions';
 import Services from './sections/Services';
 import Statistics from './sections/Statistics';
 import Treatments from './sections/Treatments';
-import Welcome from './sections/Wellcome';
+import Welcome from './sections/Welcome';
 
 export default function Home() {
     return (

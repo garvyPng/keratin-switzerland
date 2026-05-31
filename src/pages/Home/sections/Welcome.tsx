@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useReveal } from '../../../shared/hooks/useReveal';
 
-export default function Wellcome() {
+export default function Welcome() {
     const { t } = useTranslation();
 
     const { ref: leftRef, isVisible: leftVisible } = useReveal();
@@ -37,18 +37,18 @@ export default function Wellcome() {
                         }`}
                     >
                         <h2 className='text-3xl md:text-4xl lg:text-5xl font-heading font-bold leading-tight'>
-                            {t('wellcome.title')}{' '}
+                            {t('welcome.title')}{' '}
                             <span className='block font-style text-right md:text-left md:ml-64 font-normal'>
                                 Keratin Switzerland
                             </span>
                         </h2>
 
                         <p className='mt-2 md:mt-6 text-base md:text-lg text-gray-600'>
-                            {t('wellcome.text')}
+                            {t('welcome.text')}
                         </p>
 
                         <p className='mt-2 md:mt-6 text-sm md:text-lg font-light italic text-gray-500'>
-                            {t('wellcome.subtext')}
+                            {t('welcome.subtext')}
                         </p>
                     </div>
                 </div>

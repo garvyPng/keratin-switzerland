@@ -13,29 +13,29 @@
     },
     "info": [
         {
-            "title": "KONTAKTEN",
+            "title": "KONTAKT",
             "items": [
                 "Telegram: +(41) 79 480 0718 ",
-                "Whats app: +(41) 79 480 0718 "
+                "WhatsApp: +(41) 79 480 0718 "
             ]
         },
         {
             "title": "ÖFFNUNGSZEITEN",
             "items": [
-                "Mon — Fr: 8:00 am — 5:00 pm",
-                "Sa: 8:00 am — 5:00 pm"
+                "Mon — Fr: 8:00 — 17:00",
+                "Sa: 8:00 — 17:00"
             ]
         },
         {
             "title": "STANDORT",
             "items": [
-                "Hardturmstrasse 22, Zurich, Switzerland 8005"
+                "Hardturmstrasse 22, 8005 Zürich, Schweiz"
             ]
         }
     ],
-    "wellcome": {
+    "welcome": {
         "title": "Willkommen bei",
-        "text": "Wir sind spezialisiert auf moderne Haarpflegebehandlungen, die die Haarstruktur wiederherstellen, Frizz reduzieren und den natürlichen Glanz zurückbringen. Jede Behandlung wird sorgfältig auf deinen Haartyp, den Zustand und das gewünschte Ergebnis abgestimmt. Unser Ziel ist nicht nur ein kurzfristiger Effekt, sondern langfristig gesundes, gepflegtes und leicht zu handhabendes Haar, das jeden Tag schön aussieht und sich gut anfühlt. Wir verwenden ausschließlich hochwertige professionelle Produkte und bewährte Techniken, die sicher und effektiv sind.",
+        "text": "Ich bin spezialisiert auf moderne Haarpflegebehandlungen, die die Haarstruktur wiederherstellen, Frizz reduzieren und den natürlichen Glanz zurückbringen. Jede Behandlung wird sorgfältig auf deinen Haartyp, den Zustand und das gewünschte Ergebnis abgestimmt. Mein Ziel ist nicht nur ein kurzfristiger Effekt, sondern langfristig gesundes, gepflegtes und leicht zu handhabendes Haar, das jeden Tag schön aussieht und sich gut anfühlt. Ich verwende ausschließlich hochwertige professionelle Produkte und bewährte Techniken, die sicher und effektiv sind.",
         "subtext": "--Unser Ansatz basiert auf Präzision und Sorgfalt. Jede Kundin erhält individuelle Empfehlungen für Salonbehandlungen sowie die richtige Pflege zu Hause. So bleiben die Ergebnisse länger erhalten und dein Haar bleibt zwischen den Besuchen stark, glatt und glänzend--"
     },
     "services": {
@@ -43,7 +43,7 @@
         "items": [
             {
                 "id": "nanoplasty",
-                "title": "Nanoplastie",
+                "title": "Nanoplastik",
                 "options": [
                     {
                         "length": "Ansatz",
@@ -73,7 +73,7 @@
             },
             {
                 "id": "keratin",
-                "title": "Keratin | Botox",
+                "title": "Keratin & Botox",
                 "options": [
                     {
                         "length": "Sehr kurzes Haar",
@@ -99,7 +99,7 @@
             },
             {
                 "id": "reconstruction",
-                "title": "Kalte Haarrekonstruktion",
+                "title": "Kalt-Rekonstruktion",
                 "options": [
                     {
                         "length": "1 Schritt (30–40 cm)",
@@ -125,7 +125,7 @@
             },
             {
                 "id": "nanoKeratinCombo",
-                "title": "Nanoplastie Ansatz + Keratin | Botox Längen",
+                "title": "Nanoplastik Ansatz + Keratin | Botox Längen",
                 "options": [
                     {
                         "length": "Sehr kurzes Haar",
@@ -151,7 +151,7 @@
             },
             {
                 "id": "nanoReconstructionCombo",
-                "title": "Nanoplastie Ansatz + Kalte Rekonstruktion Längen",
+                "title": "Nanoplastik Ansatz + Kalte Rekonstruktion Längen",
                 "options": [
                     {
                         "length": "Sehr kurzes Haar",
@@ -199,7 +199,7 @@
             },
             {
                 "title": "Föhnen",
-                "text": "Die Haare immer föhnen. Vor dem Trocknen Hitzeschutz auftragen. Den Luftstrom von den Wurzeln zu den Spitzen richten, um Glanz und Geschmeidigkeit zu fördern. Bei dickem Haar in Sektionen arbeiten."
+                "text": "Die Haare sollten immer geföhnt werden.. Vor dem Trocknen Hitzeschutz auftragen. Den Luftstrom von den Wurzeln zu den Spitzen richten, um Glanz und Geschmeidigkeit zu fördern. Bei dickem Haar in Sektionen arbeiten."
             },
             {
                 "title": "Wichtig",
@@ -240,7 +240,7 @@
     },
     "parallax": {
         "title": "Seidig glattes Haar. Präzise Pflege.",
-        "subtitle": "Premium Haarbehandlungen aus der Schweiz, individuell für dich",
+        "subtitle": "Premium Haarbehandlungen in der Schweiz, individuell für dich",
         "button": "Jetzt buchen"
     },
     "feedbacks": {

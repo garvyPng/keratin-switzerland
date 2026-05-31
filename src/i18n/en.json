@@ -3,7 +3,7 @@
         "title": "Silky, Smooth, Healthy Hair — Effortlessly",
         "subtitle": "Professional keratin, nanoplasty, and restorative treatments tailored to your hair type. Designed to smooth, repair, and enhance natural shine while preserving the strength and health of your hair.",
         "servicesButton": "Services",
-        "bookButton": "Book Appointment Now"
+        "bookButton": "Book an Appointment"
     },
     "nav": {
         "home": "Home",
@@ -13,23 +13,23 @@
     },
     "info": [
         {
-            "title": "CONTACTS",
+            "title": "CONTACT",
             "items": [
                 "Telegram: +(41) 79 480 0718 ",
-                "Whats app: +(41) 79 480 0718 "
+                "WhatsApp: +(41) 79 480 0718 "
             ]
         },
         {
             "title": "HOURS",
             "items": [
-                "Mon to Fri: 8:00 am — 5:00 pm",
+                "Mon – Fri: 8:00 am — 5:00 pm",
                 "Sat: 8:00 am — 5:00 pm"
             ]
         },
         {
             "title": "LOCATION",
             "items": [
-                "Hardturmstrasse 22, Zurich, Switzerland 8005"
+                "Hardturmstrasse 22, 8005 Zurich, Switzerland"
             ]
         }
     ],
@@ -68,7 +68,7 @@
             },
             {
                 "id": "keratin",
-                "title": "Keratin | Botox",
+                "title": "Keratin & Botox",
                 "options": [
                     {
                         "length": "Very short hair",
@@ -94,7 +94,7 @@
             },
             {
                 "id": "reconstruction",
-                "title": "Cold hair reconstruction",
+                "title": "Cold hair reconstruction treatment",
                 "options": [
                     {
                         "length": "1 Step (30-40cm)",
@@ -120,7 +120,7 @@
             },
             {
                 "id": "nanoKeratinCombo",
-                "title": "Nanoslasty Roots + Keratin | Botox lengths",
+                "title": "Nanoplasty Roots + Keratin | Botox lengths",
                 "options": [
                     {
                         "length": "Very short hair",
@@ -146,7 +146,7 @@
             },
             {
                 "id": "nanoReconstructionCombo",
-                "title": "Nanoslasty Roots + Cold Reconstruction Length",
+                "title": "Nanoplasty Roots + Cold Reconstruction Lengths",
                 "options": [
                     {
                         "length": "Very short hair",
@@ -176,9 +176,9 @@
             "For AFRO HAIR STRUCTURE, appointments are ONLY made after a prior consultation."
         ]
     },
-    "wellcome": {
-        "title": "Wellcome to",
-        "text": "We specialize in advanced hair care treatments that restore structure, eliminate frizz, and bring back natural shine. Every procedure is carefully selected based on your hair type, condition, and desired result. Our goal is not just a temporary effect, but long-lasting, healthy, and manageable hair that looks and feels beautiful every day. We use only high-quality professional products and techniques that are safe, effective, and proven.",
+    "welcome": {
+        "title": "Welcome to",
+        "text": "We specialize in advanced hair care treatments that restore structure, eliminate frizz, and bring back natural shine. Every treatment is carefully selected based on your hair type, condition, and desired result. Our goal is not just a temporary effect, but long-lasting, healthy, and manageable hair that looks and feels beautiful every day. We use only high-quality professional products and techniques that are safe, effective, and proven.",
         "subtext": "--Our approach is based on precision and care. Each client receives personalized recommendations for both salon treatments and home care. This ensures that your results last longer and your hair remains strong, smooth, and radiant between visits--"
     },
     "treatments": {
@@ -222,7 +222,7 @@
             {
                 "id": "experience",
                 "value": "3+",
-                "label": "Years experience"
+                "label": "Years of experience"
             }
         ]
     },
@@ -232,7 +232,7 @@
         "textTitle": "Healthy & smooth hair starts here",
         "text": "I specialize in modern hair restoration and smoothing techniques, focusing on achieving natural, healthy results rather than temporary effects. Every client is unique, which is why I carefully assess hair condition, structure, and goals before selecting the right treatment. My work is based on high standards, continuous learning, and the use of professional products that deliver visible and lasting results. I believe that beautiful hair starts with proper care, and my mission is to help you achieve confidence in your look every day.",
         "subtext": "— Individual approach. Visible results. Healthy hair —",
-        "button": "Follow my Instagram"
+        "button": "Follow me on Instagram"
     },
     "portfolio": {
         "title": "My Work",
