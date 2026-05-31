@@ -70,7 +70,7 @@ export default function Services() {
                     <div className='w-full md:hidden'>
                         <img
                             className='w-full mx-auto md:max-w-none rounded-xl'
-                            src='/images/hair_guide_h.png'
+                            src='/images/hair_guide_h.webp'
                             alt='length guide'
                             loading='lazy'
                         />
@@ -78,7 +78,7 @@ export default function Services() {
                     <div className='w-full hidden md:block md:w-1/3'>
                         <img
                             className='w-full max-w-md mx-auto md:max-w-none rounded-xl'
-                            src='/images/hair_guide_v.png'
+                            src='/images/hair_guide_v.webp'
                             alt='length guide'
                             loading='lazy'
                         />
