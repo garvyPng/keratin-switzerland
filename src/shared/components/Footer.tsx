@@ -75,7 +75,7 @@ export default function Footer() {
                             </a>
 
                             <a
-                                href='https://www.instagram.com/keratin.switzerland?igsh=NG93c2l6bm5hcGM3'
+                                href='https://www.instagram.com/keratin.switzerland'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='text-[var(--color-black)] w-[18px] h-[18px] transition-all duration-300 hover:scale-110'

@@ -86,7 +86,7 @@ export default function About() {
                                 {t('about.subtext')}
                             </p>
                             <a
-                                href='https://www.instagram.com/keratin.switzerland?igsh=NG93c2l6bm5hcGM3'
+                                href='https://www.instagram.com/keratin.switzerland'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='inline-flex items-center gap-2 bg-[var(--color-orange)] text-[var(--color-black)] px-3 py-4 rounded-lg hover:scale-105 transition whitespace-nowrap leading-none h-fit'
