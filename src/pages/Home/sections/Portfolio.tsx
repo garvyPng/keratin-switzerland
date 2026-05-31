@@ -1,16 +1,16 @@
 import { useTranslation } from 'react-i18next';
 
 const gallery = [
-    { id: 1, src: '/images/portfolio/1.png', alt: 'Hair 1' },
-    { id: 2, src: '/images/portfolio/2.png', alt: 'Hair 2' },
-    { id: 3, src: '/images/portfolio/3.png', alt: 'Hair 3' },
-    { id: 4, src: '/images/portfolio/4.png', alt: 'Hair 4' },
-    { id: 5, src: '/images/portfolio/5.png', alt: 'Hair 5' },
-    { id: 6, src: '/images/portfolio/6.png', alt: 'Hair 6' },
-    { id: 7, src: '/images/portfolio/7.png', alt: 'Hair 7' },
-    { id: 8, src: '/images/portfolio/8.png', alt: 'Hair 8' },
-    { id: 9, src: '/images/portfolio/9.png', alt: 'Hair 9' },
-    { id: 10, src: '/images/portfolio/10.png', alt: 'Hair 10' },
+    { id: 1, src: '/images/portfolio/1.webp', alt: 'Hair 1' },
+    { id: 2, src: '/images/portfolio/2.webp', alt: 'Hair 2' },
+    { id: 3, src: '/images/portfolio/3.webp', alt: 'Hair 3' },
+    { id: 4, src: '/images/portfolio/4.webp', alt: 'Hair 4' },
+    { id: 5, src: '/images/portfolio/5.webp', alt: 'Hair 5' },
+    { id: 6, src: '/images/portfolio/6.webp', alt: 'Hair 6' },
+    { id: 7, src: '/images/portfolio/7.webp', alt: 'Hair 7' },
+    { id: 8, src: '/images/portfolio/8.webp', alt: 'Hair 8' },
+    { id: 9, src: '/images/portfolio/9.webp', alt: 'Hair 9' },
+    { id: 10, src: '/images/portfolio/10.webp', alt: 'Hair 10' },
 ];
 
 export default function Portfolio() {

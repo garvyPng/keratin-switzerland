@@ -15,11 +15,11 @@ export default function Hero() {
     const isPaused = useRef(false);
 
     const images = [
-        '/images/portfolio/1.png',
-        '/images/portfolio/2.png',
-        '/images/portfolio/3.png',
-        '/images/portfolio/4.png',
-        '/images/portfolio/5.png',
+        '/images/portfolio/1.webp',
+        '/images/portfolio/2.webp',
+        '/images/portfolio/3.webp',
+        '/images/portfolio/4.webp',
+        '/images/portfolio/5.webp',
     ];
 
     const scrollTo = (id: string) => {
@@ -82,7 +82,7 @@ export default function Hero() {
         >
             <div
                 className='absolute inset-0 bg-cover bg-center'
-                style={{ backgroundImage: 'url(/images/hero.png)' }}
+                style={{ backgroundImage: 'url(/images/hero.webp)' }}
             />
             <div
                 className='absolute inset-0'
@@ -171,35 +171,35 @@ export default function Hero() {
                 <div className='hidden md:block md:relative md:w-[40%] h-32 md:h-[300px]'>
                     <div className='md:absolute md:top-5 md:left-12 md:w-64 lg:w-80 rounded-[10px] aspect-square overflow-hidden z-20 animate-[floatSlow_6s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/1.png'
+                            src='/images/portfolio/1.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                         />
                     </div>
 
                     <div className='md:absolute md:-top-10 lg:-top-20 md:left-20 md:w-16 lg:w-20 rounded-[10px] aspect-square overflow-hidden z-10 animate-[floatFast_4s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/6.png'
+                            src='/images/portfolio/6.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                         />
                     </div>
 
                     <div className='md:absolute md:top-36 md:-left-10 lg:-left-16 md:w-20 lg:w-24 rounded-[10px] aspect-square overflow-hidden z-10 animate-[floatMedium_5s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/3.png'
+                            src='/images/portfolio/3.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                         />
                     </div>
 
                     <div className='md:absolute md:-bottom-20 lg:-bottom-36 md:-right-6 md:w-44 lg:w-52 rounded-[10px] aspect-square overflow-hidden z-10 animate-[floatSlow_7s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/4.png'
+                            src='/images/portfolio/4.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                         />
                     </div>
 
                     <div className='md:absolute md:-top-10 lg:-top-24 md:-right-16 md:w-52 lg:w-64 rounded-[10px] aspect-square overflow-hidden z-10 animate-[floatMedium_6s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/5.png'
+                            src='/images/portfolio/5.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                         />
                     </div>

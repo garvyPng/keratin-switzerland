@@ -6,7 +6,7 @@ export default function ParallaxSection() {
     return (
         <section
             className='h-72 md:h-[350px] bg-fixed bg-cover bg-center flex items-center justify-center mt-10 mb-6 md:mt-20 md:mb-14 relative'
-            style={{ backgroundImage: 'url(/images/hero.jpg)' }}
+            style={{ backgroundImage: 'url(/images/hero.webp)' }}
         >
             <div className='absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black/40' />
 
