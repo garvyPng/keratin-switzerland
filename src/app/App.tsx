@@ -1,25 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from '../shared/components/Navbar';
-import Footer from '../shared/components/Footer';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import AppLayout from './AppLayout';
 import Home from '../pages/Home/Home';
-import { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 
-function App() {
-    const { i18n } = useTranslation();
-
-    useEffect(() => {
-        document.documentElement.lang = i18n.language;
-    }, [i18n.language]);
+export default function App() {
     return (
-        <Router>
-            <Navbar />
+        <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Navigate to='/en' replace />} />
+
+                <Route path='/:lang' element={<AppLayout />}>
+                    <Route index element={<Home />} />
+                </Route>
             </Routes>
-            <Footer />
-        </Router>
+        </BrowserRouter>
     );
 }
-
-export default App;
