@@ -1,13 +1,21 @@
-import { useTranslation } from 'react-i18next';
+import { useNavigate, useParams } from 'react-router-dom';
 
 export default function LanguageSwitcher() {
-    const { i18n } = useTranslation();
+    console.log('SWITCHER RENDERED');
+    const navigate = useNavigate();
+    const { lang } = useParams();
+
+    const changeLang = (newLang: string) => {
+        console.log('LANG:', lang);
+        if (!newLang || newLang === lang) return;
+        navigate(`/${newLang}`, { replace: false });
+    };
 
     return (
-        <div className='flex gap-2'>
-            <button onClick={() => i18n.changeLanguage('en')}>EN</button>
-            <button onClick={() => i18n.changeLanguage('de')}>DE</button>
-            <button onClick={() => i18n.changeLanguage('ru')}>RU</button>
+        <div>
+            <button onClick={() => changeLang('en')}>EN</button>
+            <button onClick={() => changeLang('de')}>DE</button>
+            <button onClick={() => changeLang('ru')}>RU</button>
         </div>
     );
 }

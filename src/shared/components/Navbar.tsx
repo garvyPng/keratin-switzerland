@@ -1,12 +1,15 @@
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useParams } from 'react-router-dom';
 
 export default function Navbar() {
-    const { t, i18n } = useTranslation();
+    const navigate = useNavigate();
+    const { lang } = useParams();
+    const { t } = useTranslation();
 
-    const changeLang = (lang: string) => {
-        i18n.changeLanguage(lang);
+    const changeLang = (newLang: string) => {
+        if (newLang === lang) return;
+        navigate(`/${newLang}`);
     };
-
     const scrollTo = (id: string) => {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     };
@@ -62,30 +65,15 @@ export default function Navbar() {
 
                 <div className='flex items-center gap-3'>
                     <div className='flex gap-2 text-sm'>
-                        <button
-                            className={
-                                i18n.language === 'en' ? 'underline' : ''
-                            }
-                            onClick={() => changeLang('en')}
-                        >
-                            EN
-                        </button>
-                        <button
-                            className={
-                                i18n.language === 'de' ? 'underline' : ''
-                            }
-                            onClick={() => changeLang('de')}
-                        >
-                            DE
-                        </button>
-                        <button
-                            className={
-                                i18n.language === 'ru' ? 'underline' : ''
-                            }
-                            onClick={() => changeLang('ru')}
-                        >
-                            RU
-                        </button>
+                        {['en', 'de', 'ru'].map((l) => (
+                            <button
+                                key={l}
+                                onClick={() => changeLang(l)}
+                                className={lang === l ? 'underline' : ''}
+                            >
+                                {l.toUpperCase()}
+                            </button>
+                        ))}
                     </div>
 
                     <div className='flex space-x-2'>
