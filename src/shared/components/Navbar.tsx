@@ -21,8 +21,8 @@ export default function Navbar() {
                         alt=''
                     />
                     <div className='font-bold'>
-                        <p className='text-base md:text-xl'>Keratin.</p>
-                        <p className='text-xs md:text-sm'>Switzerland</p>
+                        <p className='text-base md:text-3xl'>Keratin.</p>
+                        <p className='text-xs md:text-xl'>Switzerland</p>
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@ export default function Navbar() {
                     <div className='flex space-x-2'>
                         <a
                             className='text-white w-[18px] h-[18px] transition-all duration-300 hover:scale-110'
-                            href='https://t.me/marichka_davydenko'
+                            href='https://t.me/keratin_switzerland'
                             target='_blank'
                             rel='noopener noreferrer'
                         >

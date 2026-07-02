@@ -31,12 +31,19 @@
             "items": [
                 "Hardturmstrasse 22, 8005 Zürich, Schweiz"
             ]
+        },
+        {
+            "title": "NAME",
+            "items": [
+                "Salon heisst",
+                "\"Trinity Belle\""
+            ]
         }
     ],
     "welcome": {
         "title": "Willkommen bei",
-        "text": "Ich bin spezialisiert auf moderne Haarpflegebehandlungen, die die Haarstruktur wiederherstellen, Frizz reduzieren und den natürlichen Glanz zurückbringen. Jede Behandlung wird sorgfältig auf deinen Haartyp, den Zustand und das gewünschte Ergebnis abgestimmt. Mein Ziel ist nicht nur ein kurzfristiger Effekt, sondern langfristig gesundes, gepflegtes und leicht zu handhabendes Haar, das jeden Tag schön aussieht und sich gut anfühlt. Ich verwende ausschließlich hochwertige professionelle Produkte und bewährte Techniken, die sicher und effektiv sind.",
-        "subtext": "--Unser Ansatz basiert auf Präzision und Sorgfalt. Jede Kundin erhält individuelle Empfehlungen für Salonbehandlungen sowie die richtige Pflege zu Hause. So bleiben die Ergebnisse länger erhalten und dein Haar bleibt zwischen den Besuchen stark, glatt und glänzend--"
+        "text": "Ich bin spezialisiert auf moderne Haarpflegebehandlungen, die die Haarstruktur wiederherstellen, Frizz reduzieren und den natürlichen Glanz zurückbringen. Jede Behandlung wird sorgfältig auf deinen Haartyp, den Zustand und das gewünschte Ergebnis abgestimmt. Mein Ziel ist nicht nur ein kurzfristiger Effekt, sondern langfristig gesundes, gepflegtes und leicht zu handhabendes Haar, das jeden Tag schön aussieht und sich gut anfühlt. Ich verwende ausschließlich hochwertige professionelle Formaldehydfreie Premiumprodukte und bewährte Techniken, die sicher und effektiv sind.",
+        "subtext": "--Mein Ansatz basiert auf Präzision und Sorgfalt. Jede Kundin erhält individuelle Empfehlungen für Salonbehandlungen sowie die richtige Pflege zu Hause. So bleiben die Ergebnisse länger erhalten und dein Haar bleibt zwischen den Besuchen stark, glatt und glänzend--"
     },
     "services": {
         "title": "Leistungen & Preise",
@@ -102,7 +109,7 @@
                 "title": "Kalt-Rekonstruktion",
                 "options": [
                     {
-                        "length": "1 Schritt (30–40 cm)",
+                        "length": "1 Schritt",
                         "price": "30–40 CHF"
                     },
                     {
@@ -211,17 +218,17 @@
         "items": [
             {
                 "id": "clients",
-                "value": "50+",
+                "value": "3000+",
                 "label": "Zufriedene Kunden"
             },
             {
                 "id": "treatments",
-                "value": "120+",
-                "label": "Durchgeführte Behandlungen"
+                "value": "99%",
+                "label": "Weiterempfehlungen"
             },
             {
                 "id": "experience",
-                "value": "3+",
+                "value": "7+",
                 "label": "Jahre Erfahrung"
             }
         ]
@@ -238,6 +245,10 @@
         "title": "Meine Arbeiten",
         "subtitle": "Echte Ergebnisse von echten Kundinnen. Jede Veränderung zeigt einen individuellen Ansatz und Liebe zum Detail."
     },
+    "beforeAfter": {
+        "title": "Vorher & Nachher",
+        "subtitle": "Echte Ergebnisse meiner Kundinnen nach der Behandlung."
+    },
     "parallax": {
         "title": "Seidig glattes Haar. Präzise Pflege.",
         "subtitle": "Premium Haarbehandlungen in der Schweiz, individuell für dich",
@@ -252,7 +263,7 @@
                 "text": "Ich liebe meine Haare nach der Behandlung! Sie sind unglaublich glatt und glänzend geworden. Das Ergebnis hat meine Erwartungen übertroffen."
             },
             {
-                "name": "Anna Petrova",
+                "name": "Anna Kukharenko",
                 "text": "Sehr professioneller Service und tolle Aufmerksamkeit für Details. Meine Haare lassen sich jetzt viel einfacher stylen."
             },
             {
@@ -260,7 +271,7 @@
                 "text": "Die Atmosphäre war super und das Ergebnis noch besser. Meine Haare fühlen sich zum ersten Mal seit Jahren gesund an."
             },
             {
-                "name": "Elena Ivanova",
+                "name": "Elena Antropova",
                 "text": "Ich hatte Angst vor Schäden, aber alles wurde perfekt gemacht. Das Ergebnis ist natürlich und langanhaltend."
             },
             {
@@ -268,7 +279,7 @@
                 "text": "Sehr empfehlenswert! Die Behandlung hat meine geschädigten Haare komplett verwandelt."
             },
             {
-                "name": "Olga Kuznetsova",
+                "name": "Olga Hibovskaya",
                 "text": "Man merkt sofort die Qualität der Produkte und die Erfahrung. Ich komme definitiv wieder."
             }
         ]
@@ -278,11 +289,31 @@
         "items": [
             {
                 "question": "Wie lange hält das Ergebnis?",
-                "answer": "Je nach Haartyp und Pflege zu Hause hält das Ergebnis zwischen 2 und 6 Monaten. Die richtige Pflege verlängert die Wirkung deutlich."
+                "answer": "Je nach Haartyp und Pflege zu Hause hält das Ergebnis zwischen 2 und 6 Monaten. Die richtige Pflege verlängert den Effekt deutlich."
             },
             {
                 "question": "Kann ich meine Haare direkt nach der Behandlung waschen?",
-                "answer": "Ja, moderne Formulierungen erlauben das Waschen am selben Tag. Bitte beachte jedoch immer die individuellen Empfehlungen nach der Behandlung."
+                "answer": "Ja, moderne Formulierungen ermöglichen das Waschen am selben Tag. Es ist jedoch wichtig, die individuellen Pflegehinweise zu beachten."
+            },
+            {
+                "question": "Kann die Behandlung bei blondiertem, gefärbtem Haar oder Balayage durchgeführt werden?",
+                "answer": "Ja, das ist möglich. Ich arbeite mit allen Haartypen, einschließlich Blond, Strähnen, Balayage und Airtouch."
+            },
+            {
+                "question": "Enthalten Ihre Produkte Formaldehyd?",
+                "answer": "Nein. Alle Produkte sind europäisch zertifiziert und enthalten kein Formaldehyd."
+            },
+            {
+                "question": "Dürfen schwangere Frauen und Kinder die Behandlung machen?",
+                "answer": "Nanoplastie kann bei Kindern und Schwangeren angewendet werden. Andere Behandlungen werden individuell nach Beratung entschieden."
+            },
+            {
+                "question": "Schädigt die Behandlung die Haare?",
+                "answer": "Nein. Bei korrekter Durchführung und richtiger Pflege werden die Haare glatter, glänzender und gesünder."
+            },
+            {
+                "question": "Geht das Volumen komplett verloren?",
+                "answer": "Nein. Bei Bedarf kann das Ansatzvolumen erhalten bleiben für ein natürlicheres Ergebnis."
             }
         ]
     },

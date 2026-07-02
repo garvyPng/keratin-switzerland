@@ -22,7 +22,7 @@ export default function Welcome() {
                                 className='aspect-square rounded-[10px] overflow-hidden'
                             >
                                 <img
-                                    src={`/images/w${_}.webp`}
+                                    src={`/images/welcome/${_}.png`}
                                     className='w-full h-full object-cover'
                                     alt=''
                                 />

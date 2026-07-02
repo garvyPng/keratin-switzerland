@@ -1,4 +1,5 @@
 import About from './sections/About';
+import BeforeAfter from './sections/BeforeAfter';
 import Feedbacks from './sections/Feedbacks';
 import Hero from './sections/Hero';
 import Info from './sections/Info';
@@ -20,6 +21,7 @@ export default function Home() {
             <Statistics />
             <About />
             <Portfolio />
+            <BeforeAfter />
             <ParallaxSection />
             <Feedbacks />
             <Questions />
