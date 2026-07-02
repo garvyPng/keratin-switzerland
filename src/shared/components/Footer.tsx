@@ -55,7 +55,7 @@ export default function Footer() {
 
                         <div className='flex justify-center space-x-3'>
                             <a
-                                href='https://t.me/marichka_davydenko'
+                                href='https://t.me/keratin_switzerland'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='text-[var(--color-black)] w-[18px] h-[18px] transition-all duration-300 hover:scale-110'

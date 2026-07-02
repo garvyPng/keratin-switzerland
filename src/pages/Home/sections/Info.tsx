@@ -22,7 +22,7 @@ export default function Info() {
             <div className='mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:justify-between gap-6'>
                 <div className='w-full'>
                     <iframe
-                        className='w-full h-[400px] rounded-xl grayscale'
+                        className='w-full h-[400px] md:h-[550px] rounded-xl grayscale'
                         src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.0587506623933!2d8.520444593410653!3d47.39128656186501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a4172826da3%3A0x8c77d9ef6b7391a1!2sHardturmstrasse%2022%2C%208005%20Z%C3%BCrich!5e0!3m2!1s${i18n.language}!2sch!4v1780055347346!5m2!1s${i18n.language}!2sch`}
                         loading='lazy'
                     />

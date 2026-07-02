@@ -31,7 +31,7 @@ export default function Hero() {
         if (!el) return;
 
         let frame: number;
-        const speed = 0.6;
+        const speed = 0.3;
 
         const animate = () => {
             if (!isPaused.current && window.innerWidth < 768) {
@@ -177,7 +177,7 @@ export default function Hero() {
                 <div className='hidden md:block md:relative md:w-[40%] h-32 md:h-[300px]'>
                     <div className='md:absolute md:top-5 md:left-12 md:w-64 lg:w-80 rounded-[10px] aspect-square overflow-hidden z-20 animate-[floatSlow_6s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/1.webp'
+                            src='/images/portfolio/4.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                             fetchPriority='high'
                             decoding='async'
@@ -204,7 +204,7 @@ export default function Hero() {
 
                     <div className='md:absolute md:-bottom-20 lg:-bottom-36 md:-right-6 md:w-44 lg:w-52 rounded-[10px] aspect-square overflow-hidden z-10 animate-[floatSlow_7s_ease-in-out_infinite]'>
                         <img
-                            src='/images/portfolio/4.webp'
+                            src='/images/portfolio/1.webp'
                             className='w-full h-full object-cover hover:scale-105 transition'
                             fetchPriority='high'
                             decoding='async'

@@ -34,6 +34,7 @@ export default function Portfolio() {
 
                         return (
                             <div
+                                key={item.id}
                                 className={`
         relative overflow-hidden rounded-lg aspect-square group transform-gpu
         ${isFeatured ? 'col-span-2 row-span-2' : ''} 

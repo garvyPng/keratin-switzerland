@@ -31,6 +31,13 @@
             "items": [
                 "Hardturmstrasse 22, 8005 Zurich, Switzerland"
             ]
+        },
+        {
+            "title": "NAME",
+            "items": [
+                "Salon's name is",
+                "\"Trinity Belle\""
+            ]
         }
     ],
     "services": {
@@ -97,7 +104,7 @@
                 "title": "Cold hair reconstruction treatment",
                 "options": [
                     {
-                        "length": "1 Step (30-40cm)",
+                        "length": "1 Step",
                         "price": "30-40 CHF"
                     },
                     {
@@ -178,8 +185,8 @@
     },
     "welcome": {
         "title": "Welcome to",
-        "text": "We specialize in advanced hair care treatments that restore structure, eliminate frizz, and bring back natural shine. Every treatment is carefully selected based on your hair type, condition, and desired result. Our goal is not just a temporary effect, but long-lasting, healthy, and manageable hair that looks and feels beautiful every day. We use only high-quality professional products and techniques that are safe, effective, and proven.",
-        "subtext": "--Our approach is based on precision and care. Each client receives personalized recommendations for both salon treatments and home care. This ensures that your results last longer and your hair remains strong, smooth, and radiant between visits--"
+        "text": "I specialize in advanced hair care treatments that restore structure, eliminate frizz, and bring back natural shine. Every treatment is carefully selected based on your hair type, condition, and desired result. My goal is not just a temporary effect, but long-lasting, healthy, and manageable hair that looks and feels beautiful every day. I use only high-quality Formaldehydfree Premium-Products and techniques that are safe, effective, and proven.",
+        "subtext": "--My approach is based on precision and care. Each client receives personalized recommendations for both salon treatments and home care. This ensures that your results last longer and your hair remains strong, smooth, and radiant between visits--"
     },
     "treatments": {
         "title": "Hair care after treatment",
@@ -211,17 +218,17 @@
         "items": [
             {
                 "id": "clients",
-                "value": "50+",
+                "value": "3000+",
                 "label": "Happy clients"
             },
             {
                 "id": "treatments",
-                "value": "120+",
-                "label": "Treatments done"
+                "value": "99%",
+                "label": "Recommendations"
             },
             {
                 "id": "experience",
-                "value": "3+",
+                "value": "7+",
                 "label": "Years of experience"
             }
         ]
@@ -238,6 +245,10 @@
         "title": "My Work",
         "subtitle": "Real results from real clients. Each transformation reflects a personalized approach and attention to detail."
     },
+    "beforeAfter": {
+        "title": "Before & After",
+        "subtitle": "Real transformation results from my clients."
+    },
     "parallax": {
         "title": "Silky Hair. Precision Care.",
         "subtitle": "Swiss premium hair treatments tailored for you",
@@ -252,7 +263,7 @@
                 "text": "I absolutely love my hair after the treatment. It feels incredibly smooth and looks so shiny. The result exceeded my expectations."
             },
             {
-                "name": "Anna Petrova",
+                "name": "Anna Kukharenko",
                 "text": "Very professional service and amazing attention to detail. My hair has never been this easy to manage."
             },
             {
@@ -260,7 +271,7 @@
                 "text": "The atmosphere was great and the result is even better. My hair looks healthy and feels soft for the first time in years."
             },
             {
-                "name": "Elena Ivanova",
+                "name": "Elena Antropova",
                 "text": "I was worried about damaging my hair, but everything was done perfectly. The result is natural and long-lasting."
             },
             {
@@ -268,7 +279,7 @@
                 "text": "Highly recommend! The treatment saved my damaged hair and gave it a completely new look."
             },
             {
-                "name": "Olga Kuznetsova",
+                "name": "Olga Hibovskaya",
                 "text": "You can really feel the quality of the products and the expertise. I will definitely come back again."
             }
         ]
@@ -277,12 +288,32 @@
         "title": "Frequently Asked Questions",
         "items": [
             {
-                "question": "How long does the effect last?",
-                "answer": "Depending on your hair type and home care routine, the results can last from 2 to 6 months. Proper maintenance significantly extends the effect."
+                "question": "How long does the result last?",
+                "answer": "Depending on hair type and home care, the result lasts from 2 to 6 months. Proper aftercare significantly extends the effect."
             },
             {
-                "question": "Can I wash my hair after the treatment?",
-                "answer": "Yes, modern formulas allow you to wash your hair the same day. However, always follow the specific recommendations given after your appointment."
+                "question": "Can I wash my hair immediately after the procedure?",
+                "answer": "Yes, modern formulations allow washing your hair the same day. However, it is important to follow individual post-treatment recommendations."
+            },
+            {
+                "question": "Can the treatment be done on bleached, colored hair or balayage?",
+                "answer": "Yes, it is suitable. I work with all hair types, including blonde, highlights, balayage, and airtouch."
+            },
+            {
+                "question": "Do your products contain formaldehyde?",
+                "answer": "No. All products have European quality certifications and do not contain formaldehyde."
+            },
+            {
+                "question": "Can pregnant women and children have the treatment?",
+                "answer": "Nanoplasty can be done for children and pregnant women. Other procedures are decided individually after consultation."
+            },
+            {
+                "question": "Will the procedure damage my hair?",
+                "answer": "No. When performed correctly and with proper aftercare, hair becomes smoother, shinier, and healthier."
+            },
+            {
+                "question": "Will I lose all volume?",
+                "answer": "No. If needed, root volume can be preserved for a more natural result."
             }
         ]
     },
