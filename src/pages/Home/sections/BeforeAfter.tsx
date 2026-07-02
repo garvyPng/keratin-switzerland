@@ -4,32 +4,32 @@ import { useTranslation } from 'react-i18next';
 const items = [
     {
         id: 1,
-        src: '/images/beforeAfter/1.PNG',
+        src: '/images/beforeAfter/1.webp',
         alt: 'Before and after hair treatment 1',
     },
     {
         id: 2,
-        src: '/images/beforeAfter/2.PNG',
+        src: '/images/beforeAfter/2.webp',
         alt: 'Before and after hair treatment 2',
     },
     {
         id: 3,
-        src: '/images/beforeAfter/3.PNG',
+        src: '/images/beforeAfter/3.webp',
         alt: 'Before and after hair treatment 3',
     },
     {
         id: 4,
-        src: '/images/beforeAfter/4.PNG',
+        src: '/images/beforeAfter/4.webp',
         alt: 'Before and after hair treatment 4',
     },
     {
         id: 5,
-        src: '/images/beforeAfter/5.PNG',
+        src: '/images/beforeAfter/5.webp',
         alt: 'Before and after hair treatment 5',
     },
     {
         id: 6,
-        src: '/images/beforeAfter/6.PNG',
+        src: '/images/beforeAfter/6.webp',
         alt: 'Before and after hair treatment 6',
     },
 ];
