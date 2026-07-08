@@ -1,5 +1,10 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+
+import Lightbox from 'yet-another-react-lightbox';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
+
+import 'yet-another-react-lightbox/styles.css';
 
 const items = [
     {
@@ -37,7 +42,10 @@ const items = [
 export default function BeforeAfter() {
     const trackRef = useRef<HTMLDivElement>(null);
     const isPaused = useRef(false);
+
     const { t } = useTranslation();
+
+    const [index, setIndex] = useState(-1);
 
     useEffect(() => {
         const el = trackRef.current;
@@ -66,58 +74,77 @@ export default function BeforeAfter() {
     }, []);
 
     return (
-        <section className='pt-12 md:pt-20 overflow-hidden'>
-            <div className='mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8'>
-                <div className='text-center mb-8 md:mb-12'>
-                    <h2 className='text-3xl md:text-4xl font-heading font-bold'>
-                        {t('beforeAfter.title')}
-                    </h2>
+        <>
+            <section className='pt-12 md:pt-20 overflow-hidden'>
+                <div className='mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8'>
+                    <div className='text-center mb-8 md:mb-12'>
+                        <h2 className='text-3xl md:text-4xl font-heading font-bold'>
+                            {t('beforeAfter.title')}
+                        </h2>
 
-                    <p className='text-gray-600 text-sm md:text-base mt-2'>
-                        {t('beforeAfter.subtitle')}
-                    </p>
-                </div>
+                        <p className='text-gray-600 text-sm md:text-base mt-2'>
+                            {t('beforeAfter.subtitle')}
+                        </p>
+                    </div>
 
-                <div
-                    ref={trackRef}
-                    className='flex gap-4 overflow-x-auto scrollbar-hide select-none'
-                    onMouseEnter={() => (isPaused.current = true)}
-                    onMouseLeave={() => (isPaused.current = false)}
-                    onTouchStart={() => (isPaused.current = true)}
-                    onTouchEnd={() => (isPaused.current = false)}
-                >
-                    {[...items, ...items].map((img, index) => (
-                        <div
-                            key={index}
-                            className='
-                                flex-shrink-0
-                                w-[180px]
-                                sm:w-[220px]
-                                md:w-[260px]
-                                lg:w-[300px]
-                                rounded-xl
-                                overflow-hidden
-                                shadow-md
-                                group
-                            '
-                        >
-                            <img
-                                src={img.src}
-                                alt={img.alt}
-                                loading='lazy'
+                    <div
+                        ref={trackRef}
+                        className='flex gap-4 overflow-x-auto scrollbar-hide select-none'
+                        onMouseEnter={() => (isPaused.current = true)}
+                        onMouseLeave={() => (isPaused.current = false)}
+                        onTouchStart={() => (isPaused.current = true)}
+                        onTouchEnd={() => (isPaused.current = false)}
+                    >
+                        {[...items, ...items].map((img, i) => (
+                            <div
+                                key={i}
+                                onClick={() => setIndex(i % items.length)}
                                 className='
-                                    w-full
-                                    h-auto
-                                    block
-                                    transition-transform
-                                    duration-500
-                                    group-hover:scale-105
+                                    flex-shrink-0
+                                    w-[180px]
+                                    sm:w-[220px]
+                                    md:w-[260px]
+                                    lg:w-[300px]
+                                    rounded-xl
+                                    overflow-hidden
+                                    shadow-md
+                                    group
+                                    cursor-pointer
                                 '
-                            />
-                        </div>
-                    ))}
+                            >
+                                <img
+                                    src={img.src}
+                                    alt={img.alt}
+                                    loading='lazy'
+                                    className='
+                                        w-full
+                                        h-auto
+                                        block
+                                        transition-transform
+                                        duration-500
+                                        group-hover:scale-105
+                                    '
+                                />
+                            </div>
+                        ))}
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <Lightbox
+                open={index >= 0}
+                close={() => setIndex(-1)}
+                index={index}
+                slides={items.map((img) => ({
+                    src: img.src,
+                    alt: img.alt,
+                }))}
+                plugins={[Zoom]}
+                zoom={{
+                    maxZoomPixelRatio: 3,
+                    scrollToZoom: true,
+                }}
+            />
+        </>
     );
 }
